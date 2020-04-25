@@ -1,0 +1,59 @@
+body { 
+    background: #002a3f;
+    }
+.file-upload {
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+.file-upload__input {
+    display: none;
+}
+
+.file-upload__button {
+    -webkit-appearance: none;
+    background: #009879;
+    border: 2px solid #00745d;
+    border-radius: 4px;
+    outline: none;
+    padding: 0.5em 0.8em;
+    margin-right: 15px;
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.file-upload__button:active{
+    background: #00745d;
+}
+
+.file-upload__label{
+    max-width: 250px;
+    font-size: 0.95em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+      display: table-cell;
+      width: 120px;
+      height: 120px;
+      border: 1px solid rgb(100, 100, 100);
+      /*this is the link this the image used for the puzzle*/
+      background: url(); 
+      cursor: pointer;
+    }
+    
+    .tile1 {background-position: left top;}
+    .tile2 {background-position: center top;}
+    .tile3 {background-position: right top;}
+    .tile4 {background-position: left center;}
+    .tile5 {background-position: center center;}
+    .tile6 {background-position: right center;}
+    .tile7 {background-position: left bottom;}
+    .tile8 {background-position: center bottom;}
+    .tile9 {background: rgb(58, 58, 58); cursor: default;}
